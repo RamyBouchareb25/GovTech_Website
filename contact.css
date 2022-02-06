@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+body{
+background-color: #041C32;
+overflow-x: hidden;
+}
+:root {
+--primary: #1CB275; 
+--light: #F6CE4B; 
+--dark: #041C32; 
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Montserrat';
+}
+.logo {
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+
+.nav-container {
+    top: 0%;
+    background-color: #041C32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 33px;
+    border-bottom: 5px solid #00000042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.x
+{
+    display: none;
+    transition:all 0.5s ease;
+}
+.navigation a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+}
+
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+.menu {
+    display: none;
+    justify-content: flex-end;
+    margin: 0 -16px;
+}
+
+.menu a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+
+}
+.contact-a
+{
+    background-color: var(--light);
+    color: black;
+}
+menu a .contact-a, .menu a:hover {
+    background-color: var(--light);
+    color: black;
+}
+@media (min-width: 1023px) {
+    .phone-nav
+    {
+        display: none;
+    }    
+    .hamburger
+{
+    display: none;
+}
+.x
+{
+    display: none;
+}
+}
+@media (max-width: 1023px) {
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: #041C32;
+        overflow:hidden;
+        justify-content: space-between;
+        height: 10vh;
+        transition:all 0.5s ease;
+    }
+    .phone-nav
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    .phone-nav a
+    {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 31px;
+        line-height: 51px;
+        text-align: center;
+        color: #FFFFFF;
+        box-shadow: none;
+    }
+    .phone-nav a:focus
+    {
+        color: #F6CE4B;
+    }
+    .nav-container
+    {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .navigation {
+        display: none;
+    }
+    .hamburger
+    {
+        display: inherit;
+        transition:all 0.5s ease;
+    }
+    nav {
+        display: contents;
+    }
+    .x
+    {
+        display: none;
+    }
+}
+
+
+.shape1{
+    position: absolute;
+    width: 9%;
+    height: 20%;
+    right: 0%;
+    top: 34%;
+}
+.shape3{
+    position: absolute;
+    width: 18%;
+    height: 25%;
+    left: 0%;
+    bottom: 0%;
+    transform: rotate(360deg);
+}
+.Contact{
+    
+font-family: Montserrat;
+    
+font-style: normal;
+    
+font-weight: bold;
+    
+font-size: 50px;
+    
+line-height: 70px;
+    
+text-align: center;
+    
+color: #F6CE4B;
+}
+.Question{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    color: #1DB375;
+}
+.icon ul{
+    display: flex;
+    list-style: none;
+    margin: 0 30px;
+    }
+.icon ul li a {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #041C32;
+	border-radius: 23px;
+	margin: 20px;
+	text-align: center;
+	line-height: 90px;
+	font-size: 50px;
+	color: #eee;
+	transition: .3s;
+}
+.icon a:hover {
+	animation: border .6s alternate infinite linear;
+	background-color: #eee;
+	color: #041C32;
+}
+.big-container
+{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 7% auto auto auto;
+}
+.logos
+{
+    margin-right: -10%;
+}
+.cse-logo
+{
+    margin-bottom: 6%;
+    margin-right: 8%;
+    margin-left: 6%;
+    width: 19%;
+}
+.Govtech-logo
+{
+    width: 37%;
+    margin-left: 4%;
+}
+.shape4
+{
+    display: none;
+}
+    @media only screen and (max-width:787px)
+    {
+        .shape3
+        {
+            position: absolute;
+            width: 13%;
+            height: 11%;
+            left: 0%;
+            bottom: -50%;
+        }
+        .big-container
+        {
+            padding-top:31%;
+            margin-top: auto;
+        }
+        .Question
+        {
+            font-size: 29px;
+            line-height: 47px;
+        }
+        .logos
+        {
+            margin-right: auto;
+        }
+        .cse-logo
+        {
+            margin: 0% 0% 10% 27%;
+            width: 17%;
+        }
+        .Govtech-logo
+        {
+            width: 30%;
+            margin: 5% 0% 5% 0%;
+        }
+        .Contact
+        {
+            font-size: 28px;
+            line-height: 57px;
+        }
+        .icon ul
+        {
+            margin: -1% 9% 6% 0%;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .icon ul li a
+        {
+            width: 65px;
+            height: 65px;
+        }
+        .fab
+        {
+            transform: translate(2%, -57%);
+            font-size: 63%;
+        }
+        .shape3 ,.shape1
+        {
+            display: none;
+        }
+        .shape4
+        {
+            display: inherit;
+            position: absolute;
+            bottom: 0%;
+            width: 100%;
+            height: 18.5%;
+        }
+    }

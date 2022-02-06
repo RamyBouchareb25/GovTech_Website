@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat';
+}
+body
+{
+    background-color: #041C32;
+}
+.Agenda{
+position: absolute;
+width: 4.6em;
+height: 1.5em;
+left: 42%;
+top: 2.2514285714285713em;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+color: #F6CE4B;
+}
+.thursday-conduct
+{
+    position: absolute;
+    width: 1344px;
+    height: 259px;
+    left: 20%;
+top: 56%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+.shape1-1
+{
+position: absolute;
+left: 10.9%;
+top: 35%;
+bottom: 68.44%;
+transform: rotate(-165deg);
+height: 150px;
+}
+.shape1-2
+{
+    height: 150px;
+position: absolute;
+left: 10.9%;
+top: 94.5%;
+transform: rotate(-165deg);
+}
+.shape1-3
+{
+    height: 150px;
+    position: absolute;
+    left: 10.9%;
+    top: 174%;
+    transform: rotate(-165deg);
+}
+.friday-conduct
+{
+    position: absolute;
+    width: 1327px;
+height: 518px;
+left: 20%;
+top: 828px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+text-align: justify;
+
+color: #FFFFFF;
+}
+.saturday-conduct
+{
+    position: absolute;
+    width: 1330px;
+    height: 296px;
+    left: 20%;
+    top: 1425px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: justify;
+    
+color: #FFFFFF;
+}
+.saturday
+{
+    position: absolute;
+width: 471px;
+height: 49px;
+left: 343px;
+top: 1324px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 49px;
+/* identical to box height */
+
+
+color: #1DB375;
+}
+.thursday {
+position: absolute;
+width: 473px;
+height: 49px;
+left: 347px;
+top: 313px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 49px;
+color: #1DB375;
+}
+.friday
+{
+    position: absolute;
+    width: 457px;
+height: 49px;
+left: 342px;
+top: 727px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 49px;
+/* identical to box height */
+color: #1DB375;
+}
+nav a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+}
+​
+nav a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+header {
+    background-color: #041C32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 170px;
+    border-bottom: 5px solid #00000042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.637);
+
+}
+.agenda-a
+{
+    background-color: #F6CE4B;
+    color: #000000;
+}
+.shape2
+{
+    position: absolute;
+left: 96.25%;
+top: 299px;
+}
+.shape3
+{
+position: absolute;
+left: 91%;
+top: 196px;
+z-index: -1;
+}
+.yellow
+{
+    color:#F6CE4B ;
+}
+.reclangle1
+{
+    position: absolute;
+    width: 20px;
+    height: 235px;
+    left: 16.3%;
+    top: 62%;
+    
+    background: #F6CE4B;
+}
+.rectangle2
+{
+    position: absolute;
+    width: 20px;
+    height: 413px;
+    left: 16.3%;
+    top: 116.5%;
+    
+    background: #F6CE4B;
+}
+.rectangle3
+{
+    position: absolute;
+    width: 20px;
+    height: 234px;
+    left: 16.3%;
+    top: 198%;
+    
+    background: #F6CE4B;
+}
+.span1-1
+{
+    padding-left: 27%;
+}.span1-2
+{
+    padding-left: 16%;
+}.span1-3
+{
+    padding-left: 15%;
+
+}.span1-4
+{
+    padding-left: 19%;
+
+}.span1-5
+{
+    padding-left: 8%;
+
+}
+.span2-1
+{
+    padding-left: 34%;
+
+}.span2-2
+{
+    padding-left: 15%;
+
+}.span2-3
+{
+    padding-left: 30%;
+
+}.span2-4
+{
+    padding-left: 15%;
+
+}.span2-5
+{
+    padding-left: 14%;
+
+}.span2-6
+{
+    padding-left: 10%;
+
+}
+.span2-7
+{
+    padding-left: 30%;
+}
+.span3-1
+{
+    padding-left: 25%;
+
+}.span3-2
+{
+    padding-left: 33%;
+
+}.span3-3
+{
+    padding-left: 15.5%;
+
+}.span3-4
+{
+    padding-left: 29.5%;
+
+}.span3-5
+{
+    padding-left: 29%;
+
+}.span3-6
+{
+    padding-left: 0%;
+}
+.shape4
+{
+position: absolute;
+left: 91%;
+top: 566px;
+z-index: -1;
+}
+.shape5
+{
+position: absolute;
+left: 96.25%;
+top: 665px;
+}
+.shape6
+{
+    position: absolute;
+    right: 0;
+    bottom: -137%;
+}

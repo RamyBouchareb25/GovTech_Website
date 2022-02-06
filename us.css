@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+body{
+background-color: #041C32;
+overflow: hidden;
+}
+:root {
+--primary: #1CB275; 
+--light: #F6CE4B; 
+--dark: #041C32; 
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Montserrat';
+}
+.logo {
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+
+.nav-container {
+    background-color: #041C32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 33px;
+    border-bottom: 5px solid #00000042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.x
+{
+    display: none;
+    transition:all 0.5s ease;
+}
+.navigation a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+}
+
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+section
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: 100%;
+    background: url(Group\ 1314.svg) no-repeat #041C32 center center/100% ;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    z-index: 9954;
+    position: absolute;
+    left: 4%;
+    top: 26%;
+}
+.yellow
+{
+    color: #F6CE4B;
+}
+.Green
+{
+    color: #1DB275;
+}
+p
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 32px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 85px;
+    text-align: center;
+}
+.image
+{
+    width: 43%;
+    height: 50.5%;
+    position: absolute;
+    right: 13%;
+}
+.hamburger
+{
+    display: none;
+}
+.phone-nav
+{
+    display: none;
+}
+
+@media (max-width:1023px) {
+    header
+        {
+            display: flex;
+            background-color: #041C32;
+            overflow:hidden;
+            justify-content: space-between;
+            height: 10vh;
+            transition:all 0.5s ease;
+        }
+        .phone-nav
+        {
+            display: flex;
+            margin: auto;
+            flex-direction: column;
+        }
+        .phone-nav a
+        {
+            text-decoration: none;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 31px;
+            line-height: 51px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .phone-nav a:focus
+        {
+            color: #F6CE4B;
+        }
+        .nav-container
+        {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .navigation {
+            display: none;
+        }
+        .hamburger
+        {
+            display: inherit;
+            transition:all 0.5s ease;
+        }
+        section
+        {
+            background: url(Group\ 1322.svg) no-repeat #041C32 center center;
+        }
+        .image 
+        {
+            display: none;
+        }
+        .container
+        {
+            width: 80%;
+            left: 10%;
+            top: 11%;
+        }
+        h2
+        {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            font-size: 36px;
+            line-height: 44px;
+        }
+        p
+        {
+            font-size: 17px;
+            line-height: 27px;
+        }
+    }

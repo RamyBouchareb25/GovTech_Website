@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: 'Montserrat';
+}
+body
+{
+background-color: #041C32;
+overflow-x: hidden;
+}
+.Agenda{
+margin:auto;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 85px;
+color: #F6CE4B;
+}.logo {
+    margin-top: 5px;
+    margin-bottom: -3px;
+}
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+.nav-container {
+    background-color: #041C32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 33px;
+    border-bottom: 5px solid #00000042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.x
+{
+    display: none;
+    transition:all 0.5s ease;
+}
+.navigation a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+}
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+.thursday-conduct
+{
+margin-top: 4%;
+margin-bottom: 4%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 37px;
+text-align: justify;
+color: #FFFFFF;
+}
+.friday-conduct
+{
+margin-top: 4%;
+margin-bottom: 4%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 37px;
+text-align: justify;
+color: #FFFFFF;
+}
+.saturday-conduct
+{
+margin-top: 4%;
+margin-bottom: 4%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 37px;
+text-align: justify;
+color: #FFFFFF;
+}
+.saturday
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 49px;
+color: #1DB375;
+}
+.thursday {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 49px;
+color: #1DB375;
+}
+.friday
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 49px;
+color: #1DB375;
+}
+.agenda-a
+{
+background-color: #F6CE4B;
+color: #000000;
+}
+.bigContainer
+{
+    display: grid;
+    padding-top: 10%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-right: 6%;
+    margin-left: 18%;
+}
+.container
+{
+margin-top: 4%;
+margin-left: 0%;
+width: 90%;
+display: flex;
+flex-direction: column;
+}
+p
+{
+display: flex;
+justify-content: space-between;
+}
+.shape4
+{
+position: absolute;
+left: 100.7%;
+top: 73%;
+height: 12%;
+}
+.shape3
+{
+position: absolute;
+right: -10.5%;
+top: 65%;
+height: 28%;
+}
+.shape5
+{
+position: absolute;
+left: 105%;
+top: 118%;
+height: 12%;
+}
+.shape2
+{
+position: absolute;
+left: 95%;
+top: 111.5%;
+height: 26%;
+width: 22%;
+}
+.shape6
+{
+    position: absolute;
+    right: -11.5%;
+    bottom: -158.5%;
+    height: 14%;
+}
+.shape1-1
+{
+    height: 10%;
+    width: 86%;
+    margin-left: 14%;
+    transform: rotate(180deg);
+}
+.shape1-2
+{
+    height: 10%;
+    width: 86%;
+    margin-left: 14%;
+    transform: rotate(180deg);
+}
+.shape1-3
+{
+    height: 10%;
+    width: 86%;
+    margin-left: 14%;
+    transform: rotate(180deg);
+}
+.smallContainer
+{
+width: 107%;
+display: flex;
+justify-content: center;
+flex-direction: row;
+margin-left: -7%;
+}
+.svgs
+{
+    display: flex;
+    flex-direction: column;
+}
+.reclangle1
+{
+    margin-left: 50%;
+    margin-top: 11%;
+    margin-bottom: 3%;
+}
+.rectangle2
+{
+    margin-left: 50%;
+    margin-top: 11%;
+    margin-bottom: 3%;
+}
+.rectangle3
+{
+    margin-left: 50%;
+    margin-top: 11%;
+    margin-bottom: 3%;
+}
+.hamburger
+{
+    display: none;
+}
+.phone-nav
+{
+    display: none;
+}
+@media only screen and (max-width:787px) {
+    header
+    {
+        position: inherit;
+        display: flex;
+        background-color: #041C32;
+        overflow:hidden;
+        justify-content: space-between;
+        height: 10vh;
+        transition:all 0.5s ease;
+    }
+    .phone-nav
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    .phone-nav a
+    {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 31px;
+        line-height: 51px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .phone-nav a:focus
+    {
+        color: #F6CE4B;
+    }
+
+    .nav-container
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .hamburger
+    {
+        display: inherit;
+        transition:all 0.5s ease;
+    }
+    .navigation {
+        display: none;
+    }
+    body
+    {
+        background: #041C32 url(Group\ 1324.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position:unset;
+    }
+    .bigContainer
+    {
+        display: none;
+    }
+    .others
+    {
+        display: none;
+    }
+    .shape6
+    {
+        bottom: -59.5%;
+        height: 1px;
+    }
+    .shape2
+    {
+        height: 0px;
+    }
+}

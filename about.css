@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&display=swap');
+nav a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 14px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgb(0 0 0 / 33%) 0 2.5px 0px 0px;
+}
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+body{
+    background-color: #041C32;
+    overflow: hidden;
+}
+:root {
+    --primary: #1CB275; 
+    --light: #F6CE4B; 
+    --dark: #041C32; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat';
+}
+header
+{
+    height: 10vh;
+}
+.home {
+    width: 100%;
+    min-height: 143vh;
+    background-size: 100%;
+    background: url(images/AboutBg.svg) no-repeat #041C32 center center/100%;
+    margin-left: -16%;
+    margin-top: -3%;
+}.nav-container {
+    background-color: #041C32;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0px 33px;
+    border-bottom: 5px solid #00000042;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.637);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+body .small
+{
+    overflow:hidden;
+}
+body .big
+{
+    overflow: inherit;
+}
+.hamburger
+{
+    display: none;
+}
+.phone-nav
+{
+    display: none;
+}
+.x
+{
+    display: none;
+    transition:all 0.5s ease;
+}
+.navigation a {
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px 18px;
+    border-radius: 99px;
+    box-shadow: inset rgba(0, 0, 0, 0.329) 0 2.5px 0px 0px;
+}
+
+.navigation a:hover {
+    background-color: #F6CE4B;
+    color: black;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    z-index: 9999;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+h2
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 85px;
+    text-align: center;
+}
+.yellow
+{
+    color: #F6CE4B;
+}
+.green
+{
+    color: #1DB275;
+}
+p
+{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.icons
+{
+    display: none;
+}
+@media only screen and (max-width:787px)
+    {
+        nav a 
+        {
+            box-shadow: inherit;
+        }
+        header
+    {
+        display: flex;
+        background-color: #041C32;
+        overflow:hidden;
+        justify-content: space-between;
+        height: 10vh;
+        transition:all 0.5s ease;
+    }
+    .phone-nav
+    {
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    .phone-nav a
+    {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 31px;
+        line-height: 51px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .phone-nav a:focus
+    {
+        color: #F6CE4B;
+    }
+    .nav-container
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .navigation {
+        display: none;
+    }
+    .hamburger
+    {
+        display: inherit;
+        transition:all 0.5s ease;
+    }
+        .home
+        {
+            background: url(Group\ 1316.svg) no-repeat #041C32 center center/100%;
+            margin: -7% 8% 0% 0%;        
+        }
+        .icons
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .img1
+        {
+            margin-right: 20%;
+        }
+        .img2
+        {
+            margin-right: -14%;
+        }
+        .img3
+        {
+            margin-right: 19%;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            width: 79%;
+            z-index: 9999;
+            position: absolute;
+            right: 10%;
+            top: 13%;
+            z-index: 9;
+        }
+        body
+        {
+            overflow: inherit;
+        }
+    }
